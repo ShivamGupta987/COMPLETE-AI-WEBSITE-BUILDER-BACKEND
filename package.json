@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+
+    "build": "echo 'No build step required for JavaScript'", 
+    "start": "node index.js" ,
     "dev": "tsc -b && node dist/index.js"
   },
   "keywords": [],
